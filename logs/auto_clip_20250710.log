@@ -1,0 +1,50 @@
+2025-07-10 17:03:17,256 - transcriber.transcribe - INFO - Loading Whisper model: base
+2025-07-10 17:03:17,532 - transcriber.transcribe - ERROR - Failed to load Whisper model: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)>
+2025-07-10 17:23:03,642 - transcriber.transcribe - INFO - Loading Whisper model: base
+2025-07-10 17:23:08,006 - transcriber.transcribe - INFO - Whisper model loaded successfully
+2025-07-10 17:23:08,006 - __main__ - INFO - Running in single processing mode
+2025-07-10 17:23:08,006 - __main__ - INFO - Processing video: test-videos/mrbeast_test.mp4
+2025-07-10 17:23:08,007 - __main__ - INFO - Transcribing audio...
+2025-07-10 17:23:08,007 - transcriber.transcribe - INFO - Transcribing video: test-videos/mrbeast_test.mp4
+2025-07-10 17:23:08,027 - transcriber.transcribe - ERROR - Transcription failed: [Errno 2] No such file or directory: 'ffmpeg'
+2025-07-10 17:23:08,027 - __main__ - WARNING - No transcript generated, proceeding without subtitles
+2025-07-10 17:23:08,027 - __main__ - INFO - Detecting hype moments...
+2025-07-10 17:23:08,028 - detector.detect - INFO - Analyzing video for hype moments: test-videos/mrbeast_test.mp4
+2025-07-10 17:23:08,040 - detector.detect - ERROR - Audio volume analysis failed: [Errno 2] No such file or directory: 'ffmpeg'
+2025-07-10 17:23:08,041 - detector.detect - INFO - Detected 0 hype moments
+2025-07-10 17:23:08,041 - __main__ - INFO - No hype moments detected in this segment
+2025-07-10 17:23:08,041 - __main__ - INFO - No clips were created
+2025-07-10 17:23:08,041 - __main__ - INFO - Auto Clip MVP finished
+2025-07-10 17:24:11,527 - transcriber.transcribe - INFO - Loading Whisper model: base
+2025-07-10 17:24:12,849 - transcriber.transcribe - INFO - Whisper model loaded successfully
+2025-07-10 17:24:12,849 - __main__ - INFO - Running in single processing mode
+2025-07-10 17:24:12,849 - __main__ - INFO - Processing video: test-videos/mrbeast_test.mp4
+2025-07-10 17:24:12,850 - __main__ - INFO - Transcribing audio...
+2025-07-10 17:24:12,850 - transcriber.transcribe - INFO - Transcribing video: test-videos/mrbeast_test.mp4
+2025-07-10 17:24:12,865 - transcriber.transcribe - ERROR - Transcription failed: [Errno 2] No such file or directory: 'ffmpeg'
+2025-07-10 17:24:12,866 - __main__ - WARNING - No transcript generated, proceeding without subtitles
+2025-07-10 17:24:12,866 - __main__ - INFO - Detecting hype moments...
+2025-07-10 17:24:12,866 - detector.detect - INFO - Analyzing video for hype moments: test-videos/mrbeast_test.mp4
+2025-07-10 17:24:12,881 - detector.detect - ERROR - Audio volume analysis failed: [Errno 2] No such file or directory: 'ffmpeg'
+2025-07-10 17:24:12,881 - detector.detect - INFO - Detected 0 hype moments
+2025-07-10 17:24:12,881 - __main__ - INFO - No hype moments detected in this segment
+2025-07-10 17:24:12,881 - __main__ - INFO - No clips were created
+2025-07-10 17:24:12,882 - __main__ - INFO - Auto Clip MVP finished
+2025-07-10 21:10:24,813 - transcriber.transcribe - INFO - Loading Whisper model: base
+2025-07-10 21:10:25,770 - transcriber.transcribe - INFO - Whisper model loaded successfully
+2025-07-10 21:10:25,770 - __main__ - INFO - Running in single processing mode
+2025-07-10 21:10:25,770 - __main__ - INFO - Processing video: test-videos/mrbeast_test.mp4
+2025-07-10 21:10:25,770 - __main__ - INFO - Transcribing audio...
+2025-07-10 21:10:25,771 - transcriber.transcribe - INFO - Transcribing video: test-videos/mrbeast_test.mp4
+2025-07-10 21:13:39,793 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-07-10 21:13:39,797 - __main__ - INFO - Stopping Auto Clip Processor...
+2025-07-10 21:14:10,025 - transcriber.transcribe - INFO - Transcribed 572 segments
+2025-07-10 21:14:10,029 - __main__ - INFO - Generated 572 transcript segments
+2025-07-10 21:14:10,029 - __main__ - INFO - Detecting hype moments...
+2025-07-10 21:14:10,029 - detector.detect - INFO - Analyzing video for hype moments: test-videos/mrbeast_test.mp4
+2025-07-10 21:14:22,478 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-07-10 21:14:22,478 - __main__ - INFO - Stopping Auto Clip Processor...
+2025-07-10 21:14:22,541 - detector.detect - INFO - Detected 0 hype moments
+2025-07-10 21:14:22,541 - __main__ - INFO - No hype moments detected in this segment
+2025-07-10 21:14:22,541 - __main__ - INFO - No clips were created
+2025-07-10 21:14:22,541 - __main__ - INFO - Auto Clip MVP finished
